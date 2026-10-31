@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101010" />
+  <meta name="description" content="HOOD BUOYZ — Wear the culture. Streetwear for the game, the music, and the everyday." />
+  <title>HOOD BUOYZ — Wear the Culture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER $100 <span>✳</span> WORLDWIDE SHIPPING</div>
+  <header class="header" id="top">
+    <button class="mobile-menu icon-btn" aria-label="Open menu" id="menuToggle">☰</button>
+    <a class="wordmark" href="#top" aria-label="Hood Buoyz home">HOOD<span>BUOYZ</span><i>®</i></a>
+    <nav class="main-nav" id="mainNav"><a href="#shop">SHOP ALL</a><a href="#collections">COLLECTIONS</a><a href="#about">OUR WORLD</a><a href="#contact">CONTACT</a></nav>
+    <div class="header-actions"><button class="icon-btn search-toggle" aria-label="Search" id="searchToggle">⌕</button><button class="cart-trigger" id="cartOpen">BAG <span id="cartCount">0</span></button></div>
+  </header>
+  <div class="search-bar" id="searchBar"><input id="searchInput" placeholder="Search the collection..." aria-label="Search products"><button id="searchClose" aria-label="Close search">✕</button></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div><div class="hero-shade"></div>
+      <div class="hero-content"><p class="eyebrow"><span class="live-dot"></span> CULTURE IN MOTION · EST. 2026</p><h1>WEAR<br>THE <em>CULTURE.</em></h1><p class="hero-copy">Built for the ones who live loud.<br>Game hard. Move different. Stay true.</p><a class="button button-light" href="#shop">SHOP THE DROP <span>↗</span></a></div>
+      <div class="hero-side">GAMING&nbsp;&nbsp; / &nbsp;&nbsp;MUSIC&nbsp;&nbsp; / &nbsp;&nbsp;LIFESTYLE</div><div class="hero-index">001 — HB WORLDWIDE</div>
+    </section>
+
+    <section class="ticker" aria-label="Brand slogan"><div>WEAR THE CULTURE <b>✳</b> PLAY YOUR OWN GAME <b>✳</b> SOUNDTRACK YOUR LIFE <b>✳</b> WEAR THE CULTURE <b>✳</b> PLAY YOUR OWN GAME <b>✳</b> SOUNDTRACK YOUR LIFE <b>✳</b></div></section>
+
+    <section class="section categories" id="collections"><div class="section-heading"><div><p class="eyebrow purple">FIND YOUR FREQUENCY</p><h2>THREE WORLDS.<br><span>ONE UNIFORM.</span></h2></div><p class="section-note">Different lanes. Same energy.<br>Where do you belong?</p></div>
+      <div class="world-grid">
+        <a class="world-card world-game" href="#shop" data-collection="Gaming"><img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1000&q=85" alt="Gaming setup with neon lighting"><div class="world-number">01 / PLAY</div><div class="world-title">GAME<br>FACE<span>↗</span></div><div class="world-tag">THE GAMING COLLECTION</div></a>
+        <a class="world-card world-music" href="#shop" data-collection="Music"><img src="https://images.unsplash.com/photo-1524369238924-49a2e4a5a7b9?auto=format&fit=crop&w=1000&q=85" alt="Live music crowd"><div class="world-number">02 / SOUND</div><div class="world-title">LOUD<br>BY NATURE<span>↗</span></div><div class="world-tag">THE MUSIC COLLECTION</div></a>
+        <a class="world-card world-life" href="#shop" data-collection="Lifestyle"><img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=85" alt="Streetwear look in the city"><div class="world-number">03 / EVERYDAY</div><div class="world-title">STREET<br>LEVEL<span>↗</span></div><div class="world-tag">THE LIFESTYLE COLLECTION</div></a>
+      </div>
+    </section>
+
+    <section class="section shop" id="shop"><div class="section-heading product-heading"><div><p class="eyebrow purple">FRESH OFF THE PRESS</p><h2>THE <span>ROTATION.</span></h2></div><a href="#shop" class="text-link" id="resetFilters">VIEW ALL PIECES ↗</a></div>
+      <div class="filters" id="filters"><button class="filter active" data-filter="All">ALL PIECES <span>08</span></button><button class="filter" data-filter="T-shirts">TEES</button><button class="filter" data-filter="Hoodies">HOODIES</button><button class="filter" data-filter="Caps">CAPS</button><button class="filter" data-filter="Accessories">ACCESSORIES</button><span class="filter-current" id="filterCurrent">NEW SEASON / VOL. 01</span></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="campaign"><div class="campaign-photo"></div><div class="campaign-copy"><p class="eyebrow">HB SOUND SYSTEM / 001</p><h2>MADE FOR<br>THE <em>MAIN<br>CHARACTER.</em></h2><a href="#shop" class="button button-outline">GET IN YOUR BAG <span>↗</span></a><div class="campaign-stamp">NO<br>SKIPS<br>✳</div></div><div class="campaign-caption">THE SOUNDTRACK IS YOURS. THE FIT IS OURS.</div></section>
+
+    <section class="about section" id="about"><div class="about-mark">HB<span>®</span></div><div class="about-copy"><p class="eyebrow purple">MORE THAN WHAT YOU WEAR</p><h2>WE’RE NOT<br>HERE TO <em>BLEND IN.</em></h2><p>HOOD BUOYZ lives at the intersection of late-night lobbies, heavy basslines, and long walks with nowhere to be. We make the uniform for people who don’t need a lane — they make one.</p><p>Independent in spirit. Global in energy. Always moving with the culture.</p><a href="#contact" class="text-link">GET TO KNOW US ↗</a></div><div class="about-photo"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1100&q=85" alt="Streetwear model walking downtown"><span>OUTSIDE THE LINES / ALWAYS</span></div></section>
+
+    <section class="newsletter"><p class="eyebrow">THE GROUP CHAT, BUT BETTER</p><h2>GET IN THE <em>LOOP.</em></h2><p>First access. New drops. No weird stuff.</p><form id="newsletterForm"><input type="email" placeholder="YOUR EMAIL ADDRESS" required aria-label="Email address"><button type="submit">COUNT ME IN ↗</button></form><small id="newsletterMsg">By signing up, you agree to receive the occasional good thing.</small></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactTitle"><div class="contact-copy"><p class="eyebrow purple">CONTACT US / DIRECT LINE</p><h2 id="contactTitle">LET’S<br><em>CONNECT.</em></h2><p>Questions about a drop, your order, or the culture? Hit us up. We’re right here.</p><span class="contact-signoff">REAL PEOPLE · GOOD ENERGY</span></div><div class="contact-links"><a class="contact-link" href="https://wa.me/254768607011" target="_blank" rel="noopener noreferrer" aria-label="Message HOOD BUOYZ on WhatsApp at +254768607011"><span class="contact-mark">WA</span><span class="contact-link-copy"><small>WHATSAPP / TEXT US</small><strong>+254768607011</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-link" href="https://www.instagram.com/sixx_hoodbuoyz/" target="_blank" rel="noopener noreferrer" aria-label="Visit HOOD BUOYZ on Instagram at sixx hoodbuoyz"><span class="contact-mark">IG</span><span class="contact-link-copy"><small>INSTAGRAM / FOLLOW THE WORLD</small><strong>@sixx_hoodbuoyz</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer id="siteFooter"><div class="footer-top"><a class="wordmark footer-mark" href="#top">HOOD<span>BUOYZ</span><i>®</i></a><p>WEAR THE CULTURE.<br>EVERYWHERE YOU GO.</p><div class="socials"><a href="https://wa.me/254768607011" target="_blank" rel="noopener noreferrer">WHATSAPP · +254768607011 ↗</a><a href="https://www.instagram.com/sixx_hoodbuoyz/" target="_blank" rel="noopener noreferrer">INSTAGRAM · @sixx_hoodbuoyz ↗</a></div></div><div class="footer-bottom"><span>© 2026 HOOD BUOYZ. All rights reserved.</span><span>INDEPENDENT BY DESIGN. GLOBAL BY NATURE.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/254768607011" target="_blank" rel="noopener noreferrer" aria-label="Chat with HOOD BUOYZ on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.1-1.2-6.1-3.5-8.3ZM12.2 21.6h-.1c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.9 1 1-3.8-.3-.4a9.7 9.7 0 0 1-1.5-5.1c0-5.4 4.4-9.8 9.9-9.8 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.4-4.4 9.7-9.7 9.7Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6l.5-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-1-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.6-.4Z"/></svg><span>CHAT WITH US</span></a>
+
+  <div class="overlay" id="overlay"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag"><div class="drawer-head"><div><p class="eyebrow purple">YOUR SELECTION</p><h2>THE BAG <span id="drawerCount">(0)</span></h2></div><button class="close-btn" id="cartClose" aria-label="Close bag">✕</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span>HB</span><p>YOUR BAG IS WAITING<br>FOR A BETTER STORY.</p><button class="text-link" id="continueShopping">KEEP BROWSING ↗</button></div><div class="cart-bottom" id="cartBottom"><div class="subtotal"><span>SUBTOTAL</span><strong id="subtotal">$0.00</strong></div><small>Shipping calculated at checkout.</small><button class="button button-dark" id="whatsappOrder">ORDER VIA WHATSAPP <span>↗</span></button><p>Secure the fit. Confirm your order in chat.</p></div></aside>
+  <div class="product-modal" id="productModal" role="dialog" aria-modal="true"><button class="close-btn modal-close" id="modalClose" aria-label="Close product details">✕</button><div id="modalContent"></div></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
